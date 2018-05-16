@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [API automation]">
+  <test name="All API Class(failed)">
+    <classes>
+      <class name="com.testcases.UnthenticationUnSuccessful">
+        <methods>
+          <include name="validateUnsuccessful"/>
+        </methods>
+      </class> <!-- com.testcases.UnthenticationUnSuccessful -->
+    </classes>
+  </test> <!-- All API Class(failed) -->
+</suite> <!-- Failed suite [API automation] -->
