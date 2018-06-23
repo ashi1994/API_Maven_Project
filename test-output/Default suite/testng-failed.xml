@@ -6,6 +6,7 @@
       <class name="com.testcases.NewPostCall">
         <methods>
           <include name="g"/>
+          <include name="f"/>
         </methods>
       </class> <!-- com.testcases.NewPostCall -->
     </classes>

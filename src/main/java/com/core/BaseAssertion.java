@@ -1,5 +1,7 @@
 package com.core;
 
+import static org.testng.Assert.assertEquals;
+
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.testng.Assert;
@@ -25,5 +27,12 @@ public class BaseAssertion {
 	
 	public static void verifyStatusMessage(Response response, String status){
 		Assert.assertEquals(TestUtils.getStatusMessage(response), status);
+	}
+	public static void verifyResponseFormat(Response response,String format){
+		Assert.assertEquals(TestUtils.getResponceFormat(response), format);
+	}
+	
+	public static void verifyStringContainsInResponse(Response response,String expectedMatch){
+		Assert.assertTrue(TestUtils.getResposeString(response).contains(expectedMatch));
 	}
 }

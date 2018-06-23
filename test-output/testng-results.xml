@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3378" started-at="2018-05-16T09:28:10Z" finished-at="2018-05-16T09:28:13Z">
+  <suite name="Default suite" duration-ms="3949" started-at="2018-06-22T09:53:40Z" finished-at="2018-06-22T09:53:44Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3378" started-at="2018-05-16T09:28:10Z" finished-at="2018-05-16T09:28:13Z">
+    <test name="Default test" duration-ms="3949" started-at="2018-06-22T09:53:40Z" finished-at="2018-06-22T09:53:44Z">
       <class name="com.testcases.NewPostCall">
-        <test-method status="PASS" signature="f()[pri:0, instance:com.testcases.NewPostCall@42e26948]" name="f" duration-ms="2823" started-at="2018-05-16T14:58:10Z" finished-at="2018-05-16T14:58:12Z">
+        <test-method status="PASS" signature="f()[pri:0, instance:com.testcases.NewPostCall@31610302]" name="f" duration-ms="3220" started-at="2018-06-22T15:23:40Z" description="This test case for get request" finished-at="2018-06-22T15:23:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="g()[pri:0, instance:com.testcases.NewPostCall@42e26948]" name="g" duration-ms="527" started-at="2018-05-16T14:58:12Z" finished-at="2018-05-16T14:58:13Z">
+        <test-method status="PASS" signature="g()[pri:0, instance:com.testcases.NewPostCall@31610302]" name="g" duration-ms="701" started-at="2018-06-22T15:23:43Z" description="this test case for post request" finished-at="2018-06-22T15:23:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- g -->

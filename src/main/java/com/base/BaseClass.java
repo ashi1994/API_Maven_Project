@@ -1,4 +1,4 @@
-package BaseOperation;
+package com.base;
 
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeClass;
@@ -25,7 +25,6 @@ public class BaseClass {
 		// TODO Auto-generated catch block
 		e.printStackTrace();
 	}
-	   
 	  
   }
 

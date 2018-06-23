@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="All API Test Cases"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1.209">
+  <properties />
+  
+  
+            <testcase name="successFul" time="0.707" classname="com.testcases.SuccessAuthetication" />
+                <testcase name="unSuccessFul" time="0.502" classname="com.testcases.SuccessAuthetication" />
+      
+</testsuite>

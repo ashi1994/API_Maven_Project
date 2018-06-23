@@ -1,4 +1,4 @@
-package com.testcases;
+package com.base;
 
 import io.restassured.RestAssured;
 import io.restassured.specification.RequestSpecification;

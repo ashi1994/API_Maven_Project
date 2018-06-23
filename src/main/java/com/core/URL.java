@@ -1,12 +1,13 @@
 package com.core;
-
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 
 public class URL {
 
 	private static Logger log = LogManager.getLogger(URL.class.getName());
-	public static final String URL = "https://reqres.in";
+	
+	public static final String URL = TestUtils.getUrl();
+	
 	
 	public static String getEndPoint(){
 		log.info("Base URI : " + URL);

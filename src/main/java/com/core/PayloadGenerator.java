@@ -15,6 +15,7 @@ public class PayloadGenerator {
 		String filePath = System.getProperty("user.dir")+"\\payload\\"+filename;
 		try {
 			return new String(Files.readAllBytes(Paths.get(filePath)));
+			
 		} catch (Exception e) {
 			log.error(e);
 			return null;

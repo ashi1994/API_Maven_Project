@@ -33,7 +33,7 @@ public class UnthenticationUnSuccessful {
 		      
 		     	System.out.println("Response body: " + response.body().asString());
 		     	
-		     	assertEquals(statusCode, 201,"Something wrong looks like");
+		     	assertEquals(statusCode, 400,"Something wrong looks like");
 			
 	}
  

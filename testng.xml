@@ -1,6 +1,12 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="API automation">
-<test name="All API Class">
+ <listeners>
+       <listener class-name="com.base.CustomListner"/>  
+      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+ </listeners>
+
+<test name="All API Test Cases">
 <classes>
 <class name="com.testcases.SimpleDelete"/>
 <class name="com.testcases.SimpleGetNotFound"/>
@@ -9,6 +15,8 @@
 <class name="com.testcases.SimplePutTest"/>
 <class name="com.testcases.UnthenticationSuccessful"/>
 <class name="com.testcases.UnthenticationUnSuccessful"/>
+<class name="com.testcases.NewPostCall"/>
+<class name="com.testcases.SuccessAuthetication"/>
 </classes>
 </test>
 </suite>

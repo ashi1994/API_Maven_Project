@@ -1,0 +1,362 @@
+2018-05-25 16:05:10 INFO  NewPostCall:19 - Starting getting tha data
+2018-05-25 16:05:10 INFO  URL:17 - URI End Point : https://reqres.in/api/users?page=2ttstt
+2018-05-25 16:05:10 INFO  RESTCalls:17 - Inside GETRequest call
+2018-05-25 16:05:13 INFO  TestUtils:37 - Getting Response Code
+2018-05-25 16:05:13 INFO  TestUtils:39 - 200
+2018-05-25 16:05:13 INFO  NewPostCall:31 - Starting posting of data
+2018-05-25 16:05:13 INFO  URL:17 - URI End Point : https://reqres.in/api/users
+2018-05-25 16:05:13 INFO  PayloadGenerator:14 - Inside PayloadConverter function
+2018-05-25 16:05:13 INFO  RESTCalls:26 - Inside POSTRequest call
+2018-05-25 16:05:14 INFO  TestUtils:37 - Getting Response Code
+2018-05-25 16:05:14 INFO  TestUtils:39 - 201
+2018-05-25 16:56:19 INFO  NewPostCall:19 - Starting getting tha data
+2018-05-25 16:56:19 INFO  URL:17 - URI End Point : https://reqres.in/api/users?page=2ttstt
+2018-05-25 16:56:19 INFO  RESTCalls:17 - Inside GETRequest call
+2018-05-25 16:56:22 INFO  TestUtils:37 - Getting Response Code
+2018-05-25 16:56:22 INFO  TestUtils:39 - 200
+2018-05-25 16:56:22 INFO  NewPostCall:31 - Starting posting of data
+2018-05-25 16:56:22 INFO  URL:17 - URI End Point : https://reqres.in/api/users
+2018-05-25 16:56:22 INFO  PayloadGenerator:14 - Inside PayloadConverter function
+2018-05-25 16:56:22 INFO  RESTCalls:26 - Inside POSTRequest call
+2018-05-25 16:56:22 INFO  TestUtils:37 - Getting Response Code
+2018-05-25 16:56:22 INFO  TestUtils:39 - 201
+2018-05-25 19:26:09 INFO  NewPostCall:19 - Starting getting tha data
+2018-05-25 19:26:09 INFO  URL:17 - URI End Point : https://reqres.in/api/users?page=2ttstt
+2018-05-25 19:26:09 INFO  RESTCalls:17 - Inside GETRequest call
+2018-05-25 19:26:25 INFO  NewPostCall:31 - Starting posting of data
+2018-05-25 19:26:25 INFO  URL:17 - URI End Point : https://reqres.in/api/users
+2018-05-25 19:26:25 INFO  PayloadGenerator:14 - Inside PayloadConverter function
+2018-05-25 19:26:25 INFO  RESTCalls:26 - Inside POSTRequest call
+2018-05-25 19:27:52 INFO  NewPostCall:19 - Starting getting tha data
+2018-05-25 19:27:52 INFO  URL:17 - URI End Point : https://reqres.in/api/users?page=2ttstt
+2018-05-25 19:27:52 INFO  RESTCalls:17 - Inside GETRequest call
+2018-05-25 19:28:08 INFO  NewPostCall:31 - Starting posting of data
+2018-05-25 19:28:08 INFO  URL:17 - URI End Point : https://reqres.in/api/users
+2018-05-25 19:28:08 INFO  PayloadGenerator:14 - Inside PayloadConverter function
+2018-05-25 19:28:08 INFO  RESTCalls:26 - Inside POSTRequest call
+2018-05-25 19:31:05 INFO  NewPostCall:19 - Starting getting tha data
+2018-05-25 19:31:05 INFO  URL:17 - URI End Point : https://reqres.in/api/users?page=2ttstt
+2018-05-25 19:31:05 INFO  RESTCalls:17 - Inside GETRequest call
+2018-05-25 19:31:08 INFO  TestUtils:37 - Getting Response Code
+2018-05-25 19:31:08 INFO  TestUtils:39 - 200
+2018-05-25 19:31:08 INFO  NewPostCall:31 - Starting posting of data
+2018-05-25 19:31:08 INFO  URL:17 - URI End Point : https://reqres.in/api/users
+2018-05-25 19:31:08 INFO  PayloadGenerator:14 - Inside PayloadConverter function
+2018-05-25 19:31:08 INFO  RESTCalls:26 - Inside POSTRequest call
+2018-05-25 19:31:08 INFO  TestUtils:37 - Getting Response Code
+2018-05-25 19:31:08 INFO  TestUtils:39 - 201
+2018-06-22 12:21:21 INFO  NewPostCall:19 - Starting getting tha data
+2018-06-22 12:21:21 INFO  URL:17 - URI End Point : https://reqres.in/api/users?page=2ttstt
+2018-06-22 12:21:21 INFO  RESTCalls:17 - Inside GETRequest call
+2018-06-22 12:21:24 INFO  TestUtils:37 - Getting Response Code
+2018-06-22 12:21:24 INFO  TestUtils:39 - 200
+2018-06-22 12:21:24 INFO  NewPostCall:31 - Starting posting of data
+2018-06-22 12:21:24 INFO  URL:17 - URI End Point : https://reqres.in/api/users
+2018-06-22 12:21:24 INFO  PayloadGenerator:14 - Inside PayloadConverter function
+2018-06-22 12:21:24 INFO  RESTCalls:26 - Inside POSTRequest call
+2018-06-22 12:21:25 INFO  TestUtils:37 - Getting Response Code
+2018-06-22 12:21:25 INFO  TestUtils:39 - 201
+2018-06-22 12:39:18 INFO  NewPostCall:19 - Starting getting tha data
+2018-06-22 12:39:18 INFO  URL:22 - URI End Point : /api/users?page=2ttstt
+2018-06-22 12:39:18 INFO  RESTCalls:17 - Inside GETRequest call
+2018-06-22 12:39:22 INFO  NewPostCall:31 - Starting posting of data
+2018-06-22 12:39:22 INFO  URL:22 - URI End Point : /api/users
+2018-06-22 12:39:22 INFO  PayloadGenerator:14 - Inside PayloadConverter function
+2018-06-22 12:39:22 INFO  RESTCalls:26 - Inside POSTRequest call
+2018-06-22 12:40:15 INFO  NewPostCall:19 - Starting getting tha data
+2018-06-22 12:40:15 INFO  URL:22 - URI End Point : https://reqres.in//api/users?page=2ttstt
+2018-06-22 12:40:15 INFO  RESTCalls:17 - Inside GETRequest call
+2018-06-22 12:40:18 INFO  TestUtils:41 - Getting Response Code
+2018-06-22 12:40:18 INFO  TestUtils:43 - 404
+2018-06-22 12:40:18 INFO  NewPostCall:31 - Starting posting of data
+2018-06-22 12:40:18 INFO  URL:22 - URI End Point : https://reqres.in//api/users
+2018-06-22 12:40:18 INFO  PayloadGenerator:14 - Inside PayloadConverter function
+2018-06-22 12:40:18 INFO  RESTCalls:26 - Inside POSTRequest call
+2018-06-22 12:40:18 INFO  TestUtils:41 - Getting Response Code
+2018-06-22 12:40:18 INFO  TestUtils:43 - 404
+2018-06-22 12:42:29 INFO  NewPostCall:19 - Starting getting tha data
+2018-06-22 12:42:29 INFO  URL:22 - URI End Point : https://reqres.in/api/users?page=2ttstt
+2018-06-22 12:42:29 INFO  RESTCalls:17 - Inside GETRequest call
+2018-06-22 12:42:31 INFO  TestUtils:41 - Getting Response Code
+2018-06-22 12:42:31 INFO  TestUtils:43 - 200
+2018-06-22 12:42:31 INFO  NewPostCall:31 - Starting posting of data
+2018-06-22 12:42:31 INFO  URL:22 - URI End Point : https://reqres.in/api/users
+2018-06-22 12:42:31 INFO  PayloadGenerator:14 - Inside PayloadConverter function
+2018-06-22 12:42:31 INFO  RESTCalls:26 - Inside POSTRequest call
+2018-06-22 12:42:32 INFO  TestUtils:41 - Getting Response Code
+2018-06-22 12:42:32 INFO  TestUtils:43 - 201
+2018-06-22 13:08:03 INFO  NewPostCall:18 - Starting posting of data
+2018-06-22 13:08:03 INFO  URL:18 - URI End Point : https://reqres.in/api/register
+2018-06-22 13:08:03 INFO  PayloadGenerator:14 - Inside PayloadConverter function
+2018-06-22 13:08:03 INFO  RESTCalls:26 - Inside POSTRequest call
+2018-06-22 13:08:06 INFO  TestUtils:41 - Getting Response Code
+2018-06-22 13:08:06 INFO  TestUtils:43 - 201
+2018-06-22 13:48:11 INFO  NewPostCall:18 - Starting posting of data
+2018-06-22 13:48:11 INFO  URL:18 - URI End Point : https://reqres.in/api/register
+2018-06-22 13:48:11 INFO  PayloadGenerator:14 - Inside PayloadConverter function
+2018-06-22 13:48:11 INFO  RESTCalls:26 - Inside POSTRequest call
+2018-06-22 13:48:13 INFO  TestUtils:41 - Getting Response Code
+2018-06-22 13:48:13 INFO  TestUtils:43 - 201
+2018-06-22 14:03:17 INFO  NewPostCall:18 - Starting posting of data
+2018-06-22 14:03:17 INFO  URL:18 - URI End Point : https://reqres.in/api/register
+2018-06-22 14:03:17 INFO  PayloadGenerator:14 - Inside PayloadConverter function
+2018-06-22 14:03:17 INFO  RESTCalls:26 - Inside POSTRequest call
+2018-06-22 14:03:21 INFO  TestUtils:41 - Getting Response Code
+2018-06-22 14:03:21 INFO  TestUtils:43 - 201
+2018-06-22 14:03:21 INFO  TestUtils:19 - Converting Response to String
+2018-06-22 14:03:40 INFO  NewPostCall:18 - Starting posting of data
+2018-06-22 14:03:40 INFO  URL:18 - URI End Point : https://reqres.in/api/register
+2018-06-22 14:03:40 INFO  PayloadGenerator:14 - Inside PayloadConverter function
+2018-06-22 14:03:40 INFO  RESTCalls:26 - Inside POSTRequest call
+2018-06-22 14:03:42 INFO  TestUtils:41 - Getting Response Code
+2018-06-22 14:03:42 INFO  TestUtils:43 - 201
+2018-06-22 14:03:42 INFO  TestUtils:19 - Converting Response to String
+2018-06-22 14:04:07 INFO  NewPostCall:18 - Starting posting of data
+2018-06-22 14:04:07 INFO  URL:18 - URI End Point : https://reqres.in/api/register
+2018-06-22 14:04:07 INFO  PayloadGenerator:14 - Inside PayloadConverter function
+2018-06-22 14:04:07 INFO  RESTCalls:26 - Inside POSTRequest call
+2018-06-22 14:04:10 INFO  TestUtils:41 - Getting Response Code
+2018-06-22 14:04:10 INFO  TestUtils:43 - 201
+2018-06-22 14:04:10 INFO  TestUtils:19 - Converting Response to String
+2018-06-22 14:06:14 INFO  NewPostCall:18 - Starting posting of data
+2018-06-22 14:06:14 INFO  URL:18 - URI End Point : https://reqres.in/api/register
+2018-06-22 14:06:14 INFO  PayloadGenerator:14 - Inside PayloadConverter function
+2018-06-22 14:06:14 INFO  RESTCalls:26 - Inside POSTRequest call
+2018-06-22 14:06:16 INFO  TestUtils:41 - Getting Response Code
+2018-06-22 14:06:16 INFO  TestUtils:43 - 201
+2018-06-22 14:06:16 INFO  TestUtils:19 - Converting Response to String
+2018-06-22 14:18:47 INFO  NewPostCall:18 - Starting posting of data
+2018-06-22 14:18:47 INFO  URL:18 - URI End Point : https://reqres.in/api/register
+2018-06-22 14:18:47 INFO  PayloadGenerator:14 - Inside PayloadConverter function
+2018-06-22 14:18:47 INFO  RESTCalls:26 - Inside POSTRequest call
+2018-06-22 14:18:50 INFO  TestUtils:41 - Getting Response Code
+2018-06-22 14:18:50 INFO  TestUtils:43 - 201
+2018-06-22 14:18:50 INFO  TestUtils:19 - Converting Response to String
+2018-06-22 14:18:50 INFO  NewPostCall:30 - Starting posting of data
+2018-06-22 14:18:50 INFO  URL:18 - URI End Point : https://reqres.in/api/register
+2018-06-22 14:18:50 INFO  PayloadGenerator:14 - Inside PayloadConverter function
+2018-06-22 14:18:50 INFO  RESTCalls:26 - Inside POSTRequest call
+2018-06-22 14:18:50 INFO  TestUtils:41 - Getting Response Code
+2018-06-22 14:18:50 INFO  TestUtils:43 - 400
+2018-06-22 14:18:50 INFO  TestUtils:19 - Converting Response to String
+2018-06-22 14:20:00 INFO  NewPostCall:18 - Starting posting of data
+2018-06-22 14:20:00 INFO  URL:18 - URI End Point : https://reqres.in/api/register
+2018-06-22 14:20:00 INFO  PayloadGenerator:14 - Inside PayloadConverter function
+2018-06-22 14:20:00 INFO  RESTCalls:26 - Inside POSTRequest call
+2018-06-22 14:20:04 INFO  TestUtils:41 - Getting Response Code
+2018-06-22 14:20:04 INFO  TestUtils:43 - 201
+2018-06-22 14:20:04 INFO  TestUtils:19 - Converting Response to String
+2018-06-22 14:20:04 INFO  NewPostCall:30 - Starting posting of data
+2018-06-22 14:20:04 INFO  URL:18 - URI End Point : https://reqres.in/api/register
+2018-06-22 14:20:04 INFO  PayloadGenerator:14 - Inside PayloadConverter function
+2018-06-22 14:20:04 INFO  RESTCalls:26 - Inside POSTRequest call
+2018-06-22 14:20:05 INFO  TestUtils:41 - Getting Response Code
+2018-06-22 14:20:05 INFO  TestUtils:43 - 400
+2018-06-22 14:20:05 INFO  TestUtils:19 - Converting Response to String
+2018-06-22 14:35:08 INFO  NewPostCall:19 - Starting getting tha data
+2018-06-22 14:35:08 INFO  URL:18 - URI End Point : https://reqres.in/api/users?page=2ttstt
+2018-06-22 14:35:08 INFO  RESTCalls:17 - Inside GETRequest call
+2018-06-22 14:35:41 INFO  TestUtils:41 - Getting Response Code
+2018-06-22 14:35:41 INFO  TestUtils:43 - 522
+2018-06-22 14:35:41 INFO  NewPostCall:31 - Starting posting of data
+2018-06-22 14:35:41 INFO  URL:18 - URI End Point : https://reqres.in/api/users
+2018-06-22 14:35:41 INFO  PayloadGenerator:14 - Inside PayloadConverter function
+2018-06-22 14:35:41 INFO  RESTCalls:26 - Inside POSTRequest call
+2018-06-22 14:36:20 INFO  TestUtils:41 - Getting Response Code
+2018-06-22 14:36:20 INFO  TestUtils:43 - 201
+2018-06-22 14:36:52 INFO  NewPostCall:19 - Starting getting tha data
+2018-06-22 14:36:52 INFO  URL:18 - URI End Point : https://reqres.in/api/users?page=2ttstt
+2018-06-22 14:36:52 INFO  RESTCalls:17 - Inside GETRequest call
+2018-06-22 14:36:54 INFO  TestUtils:41 - Getting Response Code
+2018-06-22 14:36:54 INFO  TestUtils:43 - 200
+2018-06-22 14:36:54 INFO  NewPostCall:31 - Starting posting of data
+2018-06-22 14:36:54 INFO  URL:18 - URI End Point : https://reqres.in/api/users
+2018-06-22 14:36:54 INFO  PayloadGenerator:14 - Inside PayloadConverter function
+2018-06-22 14:36:54 INFO  RESTCalls:26 - Inside POSTRequest call
+2018-06-22 14:36:55 INFO  TestUtils:41 - Getting Response Code
+2018-06-22 14:36:55 INFO  TestUtils:43 - 201
+2018-06-22 14:37:31 INFO  NewPostCall:19 - Starting getting tha data
+2018-06-22 14:37:31 INFO  URL:18 - URI End Point : https://reqres.in/api/users?page=2ttstt
+2018-06-22 14:37:31 INFO  RESTCalls:17 - Inside GETRequest call
+2018-06-22 14:37:33 INFO  TestUtils:41 - Getting Response Code
+2018-06-22 14:37:33 INFO  TestUtils:43 - 200
+2018-06-22 14:37:33 INFO  NewPostCall:31 - Starting posting of data
+2018-06-22 14:37:33 INFO  URL:18 - URI End Point : https://reqres.in/api/users
+2018-06-22 14:37:33 INFO  PayloadGenerator:14 - Inside PayloadConverter function
+2018-06-22 14:37:33 INFO  RESTCalls:26 - Inside POSTRequest call
+2018-06-22 14:37:34 INFO  TestUtils:41 - Getting Response Code
+2018-06-22 14:37:34 INFO  TestUtils:43 - 201
+2018-06-22 15:20:58 INFO  NewPostCall:19 - Starting getting tha data
+2018-06-22 15:20:58 INFO  URL:18 - URI End Point : https://strategy-qa-two.marketshare.com/optimizer/apiscenario/getDashboardScenario?userid=20&sid=B3D0A9AE4A4445D3AB4DDE863D2D24B4&clientid=1&language=en&timestamp=1529660806621
+2018-06-22 15:20:58 INFO  RESTCalls:17 - Inside GETRequest call
+2018-06-22 15:21:49 INFO  NewPostCall:19 - Starting getting tha data
+2018-06-22 15:21:49 INFO  URL:18 - URI End Point : https://strategy-qa-two.marketshare.com/optimizer/api/scenario/getDashboardScenario?userid=20&sid=B3D0A9AE4A4445D3AB4DDE863D2D24B4&clientid=1&language=en&timestamp=1529660806621
+2018-06-22 15:21:49 INFO  RESTCalls:17 - Inside GETRequest call
+2018-06-22 15:22:44 INFO  NewPostCall:19 - Starting getting tha data
+2018-06-22 15:22:44 INFO  URL:18 - URI End Point : https://strategy-qa-two.marketshare.com/optimizer/api/api/users?page=2ttstt
+2018-06-22 15:22:44 INFO  RESTCalls:17 - Inside GETRequest call
+2018-06-22 15:22:47 INFO  NewPostCall:31 - Starting posting of data
+2018-06-22 15:22:47 INFO  URL:18 - URI End Point : https://strategy-qa-two.marketshare.com/optimizer/api/api/users
+2018-06-22 15:22:47 INFO  PayloadGenerator:14 - Inside PayloadConverter function
+2018-06-22 15:22:47 INFO  RESTCalls:26 - Inside POSTRequest call
+2018-06-22 15:23:40 INFO  NewPostCall:19 - Starting getting tha data
+2018-06-22 15:23:40 INFO  URL:18 - URI End Point : https://reqres.in/api/users?page=2ttstt
+2018-06-22 15:23:40 INFO  RESTCalls:17 - Inside GETRequest call
+2018-06-22 15:23:43 INFO  TestUtils:41 - Getting Response Code
+2018-06-22 15:23:43 INFO  TestUtils:43 - 200
+2018-06-22 15:23:43 INFO  NewPostCall:31 - Starting posting of data
+2018-06-22 15:23:43 INFO  URL:18 - URI End Point : https://reqres.in/api/users
+2018-06-22 15:23:43 INFO  PayloadGenerator:14 - Inside PayloadConverter function
+2018-06-22 15:23:43 INFO  RESTCalls:26 - Inside POSTRequest call
+2018-06-22 15:23:44 INFO  TestUtils:41 - Getting Response Code
+2018-06-22 15:23:44 INFO  TestUtils:43 - 201
+2018-06-22 15:35:49 INFO  NewPostCall:19 - Starting getting tha data
+2018-06-22 15:35:49 INFO  URL:18 - URI End Point : https://reqres.in/api/users?page=2ttstt
+2018-06-22 15:35:49 INFO  RESTCalls:17 - Inside GETRequest call
+2018-06-22 15:35:50 INFO  TestUtils:41 - Getting Response Code
+2018-06-22 15:35:50 INFO  TestUtils:43 - 200
+2018-06-22 15:35:50 INFO  NewPostCall:31 - Starting posting of data
+2018-06-22 15:35:50 INFO  URL:18 - URI End Point : https://reqres.in/api/users
+2018-06-22 15:35:50 INFO  PayloadGenerator:14 - Inside PayloadConverter function
+2018-06-22 15:35:50 INFO  RESTCalls:26 - Inside POSTRequest call
+2018-06-22 15:35:50 INFO  TestUtils:41 - Getting Response Code
+2018-06-22 15:35:50 INFO  TestUtils:43 - 201
+2018-06-22 15:35:50 INFO  NewPostCall:18 - Starting posting of data
+2018-06-22 15:35:50 INFO  URL:18 - URI End Point : https://reqres.in/api/register
+2018-06-22 15:35:50 INFO  PayloadGenerator:14 - Inside PayloadConverter function
+2018-06-22 15:35:50 INFO  RESTCalls:26 - Inside POSTRequest call
+2018-06-22 15:35:51 INFO  TestUtils:41 - Getting Response Code
+2018-06-22 15:35:51 INFO  TestUtils:43 - 201
+2018-06-22 15:35:51 INFO  TestUtils:19 - Converting Response to String
+2018-06-22 15:35:51 INFO  NewPostCall:30 - Starting posting of data
+2018-06-22 15:35:51 INFO  URL:18 - URI End Point : https://reqres.in/api/register
+2018-06-22 15:35:51 INFO  PayloadGenerator:14 - Inside PayloadConverter function
+2018-06-22 15:35:51 INFO  RESTCalls:26 - Inside POSTRequest call
+2018-06-22 15:35:52 INFO  TestUtils:41 - Getting Response Code
+2018-06-22 15:35:52 INFO  TestUtils:43 - 400
+2018-06-22 15:35:52 INFO  TestUtils:19 - Converting Response to String
+2018-06-22 17:26:23 INFO  NewPostCall:19 - Starting getting tha data
+2018-06-22 17:26:23 INFO  URL:18 - URI End Point : https://reqres.in/api/users?page=2ttstt
+2018-06-22 17:26:23 INFO  RESTCalls:17 - Inside GETRequest call
+2018-06-22 17:26:23 INFO  TestUtils:41 - Getting Response Code
+2018-06-22 17:26:23 INFO  TestUtils:43 - 200
+2018-06-22 17:26:23 INFO  NewPostCall:31 - Starting posting of data
+2018-06-22 17:26:23 INFO  URL:18 - URI End Point : https://reqres.in/api/users
+2018-06-22 17:26:23 INFO  PayloadGenerator:14 - Inside PayloadConverter function
+2018-06-22 17:26:23 INFO  RESTCalls:26 - Inside POSTRequest call
+2018-06-22 17:26:24 INFO  TestUtils:41 - Getting Response Code
+2018-06-22 17:26:24 INFO  TestUtils:43 - 201
+2018-06-22 17:26:24 INFO  NewPostCall:18 - Starting posting of data
+2018-06-22 17:26:24 INFO  URL:18 - URI End Point : https://reqres.in/api/register
+2018-06-22 17:26:24 INFO  PayloadGenerator:14 - Inside PayloadConverter function
+2018-06-22 17:26:24 INFO  RESTCalls:26 - Inside POSTRequest call
+2018-06-22 17:26:25 INFO  TestUtils:41 - Getting Response Code
+2018-06-22 17:26:25 INFO  TestUtils:43 - 201
+2018-06-22 17:26:25 INFO  TestUtils:19 - Converting Response to String
+2018-06-22 17:26:25 INFO  NewPostCall:30 - Starting posting of data
+2018-06-22 17:26:25 INFO  URL:18 - URI End Point : https://reqres.in/api/register
+2018-06-22 17:26:25 INFO  PayloadGenerator:14 - Inside PayloadConverter function
+2018-06-22 17:26:25 INFO  RESTCalls:26 - Inside POSTRequest call
+2018-06-22 17:26:25 INFO  TestUtils:41 - Getting Response Code
+2018-06-22 17:26:25 INFO  TestUtils:43 - 400
+2018-06-22 17:26:25 INFO  TestUtils:19 - Converting Response to String
+2018-06-22 17:41:02 INFO  NewPostCall:19 - Starting getting tha data
+2018-06-22 17:41:02 INFO  URL:18 - URI End Point : https://reqres.in/api/users?page=2ttstt
+2018-06-22 17:41:02 INFO  RESTCalls:17 - Inside GETRequest call
+2018-06-22 17:41:03 INFO  TestUtils:41 - Getting Response Code
+2018-06-22 17:41:03 INFO  TestUtils:43 - 200
+2018-06-22 17:41:03 INFO  NewPostCall:31 - Starting posting of data
+2018-06-22 17:41:03 INFO  URL:18 - URI End Point : https://reqres.in/api/users
+2018-06-22 17:41:03 INFO  PayloadGenerator:14 - Inside PayloadConverter function
+2018-06-22 17:41:03 INFO  RESTCalls:26 - Inside POSTRequest call
+2018-06-22 17:41:03 INFO  TestUtils:41 - Getting Response Code
+2018-06-22 17:41:03 INFO  TestUtils:43 - 201
+2018-06-22 17:41:03 INFO  NewPostCall:18 - Starting posting of data
+2018-06-22 17:41:03 INFO  URL:18 - URI End Point : https://reqres.in/api/register
+2018-06-22 17:41:03 INFO  PayloadGenerator:14 - Inside PayloadConverter function
+2018-06-22 17:41:03 INFO  RESTCalls:26 - Inside POSTRequest call
+2018-06-22 17:41:04 INFO  TestUtils:41 - Getting Response Code
+2018-06-22 17:41:04 INFO  TestUtils:43 - 201
+2018-06-22 17:41:04 INFO  TestUtils:19 - Converting Response to String
+2018-06-22 17:41:04 INFO  NewPostCall:30 - Starting posting of data
+2018-06-22 17:41:04 INFO  URL:18 - URI End Point : https://reqres.in/api/register
+2018-06-22 17:41:04 INFO  PayloadGenerator:14 - Inside PayloadConverter function
+2018-06-22 17:41:04 INFO  RESTCalls:26 - Inside POSTRequest call
+2018-06-22 17:41:04 INFO  TestUtils:41 - Getting Response Code
+2018-06-22 17:41:04 INFO  TestUtils:43 - 400
+2018-06-22 17:41:04 INFO  TestUtils:19 - Converting Response to String
+2018-06-22 17:42:12 INFO  NewPostCall:19 - Starting getting tha data
+2018-06-22 17:42:12 INFO  URL:18 - URI End Point : https://reqres.in/api/users?page=2ttstt
+2018-06-22 17:42:12 INFO  RESTCalls:17 - Inside GETRequest call
+2018-06-22 17:42:13 INFO  TestUtils:41 - Getting Response Code
+2018-06-22 17:42:13 INFO  TestUtils:43 - 200
+2018-06-22 17:42:13 INFO  NewPostCall:31 - Starting posting of data
+2018-06-22 17:42:13 INFO  URL:18 - URI End Point : https://reqres.in/api/users
+2018-06-22 17:42:13 INFO  PayloadGenerator:14 - Inside PayloadConverter function
+2018-06-22 17:42:13 INFO  RESTCalls:26 - Inside POSTRequest call
+2018-06-22 17:42:13 INFO  TestUtils:41 - Getting Response Code
+2018-06-22 17:42:13 INFO  TestUtils:43 - 201
+2018-06-22 17:42:13 INFO  NewPostCall:18 - Starting posting of data
+2018-06-22 17:42:13 INFO  URL:18 - URI End Point : https://reqres.in/api/register
+2018-06-22 17:42:13 INFO  PayloadGenerator:14 - Inside PayloadConverter function
+2018-06-22 17:42:13 INFO  RESTCalls:26 - Inside POSTRequest call
+2018-06-22 17:42:14 INFO  TestUtils:41 - Getting Response Code
+2018-06-22 17:42:14 INFO  TestUtils:43 - 201
+2018-06-22 17:42:14 INFO  TestUtils:19 - Converting Response to String
+2018-06-22 17:42:14 INFO  NewPostCall:30 - Starting posting of data
+2018-06-22 17:42:14 INFO  URL:18 - URI End Point : https://reqres.in/api/register
+2018-06-22 17:42:14 INFO  PayloadGenerator:14 - Inside PayloadConverter function
+2018-06-22 17:42:14 INFO  RESTCalls:26 - Inside POSTRequest call
+2018-06-22 17:42:16 INFO  TestUtils:41 - Getting Response Code
+2018-06-22 17:42:16 INFO  TestUtils:43 - 400
+2018-06-22 17:42:16 INFO  TestUtils:19 - Converting Response to String
+2018-06-22 17:43:37 INFO  NewPostCall:19 - Starting getting tha data
+2018-06-22 17:43:37 INFO  URL:18 - URI End Point : https://reqres.in/api/users?page=2ttstt
+2018-06-22 17:43:37 INFO  RESTCalls:17 - Inside GETRequest call
+2018-06-22 17:43:38 INFO  TestUtils:41 - Getting Response Code
+2018-06-22 17:43:38 INFO  TestUtils:43 - 200
+2018-06-22 17:43:38 INFO  NewPostCall:31 - Starting posting of data
+2018-06-22 17:43:38 INFO  URL:18 - URI End Point : https://reqres.in/api/users
+2018-06-22 17:43:38 INFO  PayloadGenerator:14 - Inside PayloadConverter function
+2018-06-22 17:43:38 INFO  RESTCalls:26 - Inside POSTRequest call
+2018-06-22 17:43:38 INFO  TestUtils:41 - Getting Response Code
+2018-06-22 17:43:38 INFO  TestUtils:43 - 201
+2018-06-22 17:43:38 INFO  NewPostCall:18 - Starting posting of data
+2018-06-22 17:43:38 INFO  URL:18 - URI End Point : https://reqres.in/api/register
+2018-06-22 17:43:38 INFO  PayloadGenerator:14 - Inside PayloadConverter function
+2018-06-22 17:43:38 INFO  RESTCalls:26 - Inside POSTRequest call
+2018-06-22 17:43:39 INFO  TestUtils:41 - Getting Response Code
+2018-06-22 17:43:39 INFO  TestUtils:43 - 201
+2018-06-22 17:43:39 INFO  TestUtils:19 - Converting Response to String
+2018-06-22 17:43:39 INFO  NewPostCall:30 - Starting posting of data
+2018-06-22 17:43:39 INFO  URL:18 - URI End Point : https://reqres.in/api/register
+2018-06-22 17:43:39 INFO  PayloadGenerator:14 - Inside PayloadConverter function
+2018-06-22 17:43:39 INFO  RESTCalls:26 - Inside POSTRequest call
+2018-06-22 17:43:40 INFO  TestUtils:41 - Getting Response Code
+2018-06-22 17:43:40 INFO  TestUtils:43 - 400
+2018-06-22 17:43:40 INFO  TestUtils:19 - Converting Response to String
+2018-06-22 17:49:36 INFO  NewPostCall:19 - Starting getting tha data
+2018-06-22 17:49:36 INFO  URL:18 - URI End Point : https://reqres.in/api/users?page=2ttstt
+2018-06-22 17:49:36 INFO  RESTCalls:17 - Inside GETRequest call
+2018-06-22 17:49:37 INFO  TestUtils:41 - Getting Response Code
+2018-06-22 17:49:37 INFO  TestUtils:43 - 200
+2018-06-22 17:49:37 INFO  NewPostCall:31 - Starting posting of data
+2018-06-22 17:49:37 INFO  URL:18 - URI End Point : https://reqres.in/api/users
+2018-06-22 17:49:37 INFO  PayloadGenerator:14 - Inside PayloadConverter function
+2018-06-22 17:49:37 INFO  RESTCalls:26 - Inside POSTRequest call
+2018-06-22 17:49:37 INFO  TestUtils:41 - Getting Response Code
+2018-06-22 17:49:37 INFO  TestUtils:43 - 201
+2018-06-22 17:49:37 INFO  NewPostCall:18 - Starting posting of data
+2018-06-22 17:49:37 INFO  URL:18 - URI End Point : https://reqres.in/api/register
+2018-06-22 17:49:37 INFO  PayloadGenerator:14 - Inside PayloadConverter function
+2018-06-22 17:49:37 INFO  RESTCalls:26 - Inside POSTRequest call
+2018-06-22 17:49:38 INFO  TestUtils:41 - Getting Response Code
+2018-06-22 17:49:38 INFO  TestUtils:43 - 201
+2018-06-22 17:49:38 INFO  TestUtils:19 - Converting Response to String
+2018-06-22 17:49:38 INFO  NewPostCall:30 - Starting posting of data
+2018-06-22 17:49:38 INFO  URL:18 - URI End Point : https://reqres.in/api/register
+2018-06-22 17:49:38 INFO  PayloadGenerator:14 - Inside PayloadConverter function
+2018-06-22 17:49:38 INFO  RESTCalls:26 - Inside POSTRequest call
+2018-06-22 17:49:38 INFO  TestUtils:41 - Getting Response Code
+2018-06-22 17:49:38 INFO  TestUtils:43 - 400
+2018-06-22 17:49:38 INFO  TestUtils:19 - Converting Response to String

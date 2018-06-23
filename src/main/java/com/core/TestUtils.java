@@ -1,5 +1,9 @@
 package com.core;
 
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.util.Properties;
+
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 
@@ -45,6 +49,29 @@ public class TestUtils {
 		String responseMessage = response.getStatusLine();
 		log.info(responseMessage);
 		return responseMessage;
+	}
+	public static String getResponceFormat(Response response){
+		log.info("Getting response format");
+		String responseFormat = response.contentType();
+		log.info(responseFormat);
+		return responseFormat;
+	}	
+	
+	public static String getUrl(){
+		FileInputStream reader;
+		Properties pr;
+		String URL="";
+		try {
+			reader = new FileInputStream(System.getProperty("user.dir")+"/"+"src/test/resource/app.properties");
+			pr=new Properties();
+			pr.load(reader);
+			URL=pr.getProperty("BaseUrl");
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		return URL;
 	}
 	
 		
