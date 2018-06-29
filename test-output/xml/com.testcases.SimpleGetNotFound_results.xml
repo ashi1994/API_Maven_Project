@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="0.722">
+           time="0.745">
   <properties />
   
   
-            <testcase name="GetWeatherDetails" time="0.722" classname="com.testcases.SimpleGetNotFound" />
+            <testcase name="GetWeatherDetails" time="0.745" classname="com.testcases.SimpleGetNotFound" />
       
 </testsuite>

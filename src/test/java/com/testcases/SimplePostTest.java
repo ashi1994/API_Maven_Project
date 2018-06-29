@@ -65,14 +65,7 @@ public class SimplePostTest {
       
      	System.out.println("Response body: " + response.body().asString());
      	System.out.println("Response body: " + response1.body().asString());
-     	assertEquals(statusCode, 201,"something wrong");
-	
-	
-
-		
-		
-		
-		
+     	assertEquals(statusCode, 201,"something wrong");		
 	}
  
 }

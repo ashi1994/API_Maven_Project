@@ -5,6 +5,8 @@ import java.util.List;
 
 import org.testng.annotations.Test;
 import io.restassured.RestAssured;
+import io.restassured.http.Header;
+import io.restassured.http.Headers;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
@@ -36,9 +38,17 @@ public class SimpleGetTest {
         System.out.println("Status code is =>  " + response.getStatusCode());
 		System.out.println("Status Line is =>  "  +(response.getStatusLine()));
 		System.out.println("Content type is => "+(response.contentType()));
+		//System.out.println("Headers are "+response.getHeaders());
+		Headers allHeaders = response.headers();
+		 
+		// Iterate over all the Headers
+		for(Header header : allHeaders)
+		{
+			System.out.println("Key: " + header.getName() + " Value: " + header.getValue());
+		}
 		
-		List<String> ls=response.jsonPath().getList("id");
-		System.out.println("ID "+ls);
+//		List<String> ls=response.jsonPath().getList("id");
+//		System.out.println("ID "+ls);
 	
 		
 		/*
@@ -56,3 +66,11 @@ public class SimpleGetTest {
 	}
  
 }
+/*
+ * Headers Contains--
+ * Content Type--application/json
+ * Server--cloudflare
+ * Content-Encoding--gzip
+ * Connection=keep-alive
+ */
+

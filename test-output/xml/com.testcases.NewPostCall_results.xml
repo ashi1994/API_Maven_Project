@@ -4,11 +4,11 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="1.206">
+           time="1.240">
   <properties />
   
   
-            <testcase name="f" time="0.700" classname="com.testcases.NewPostCall" />
-                <testcase name="g" time="0.506" classname="com.testcases.NewPostCall" />
+            <testcase name="f" time="0.560" classname="com.testcases.NewPostCall" />
+                <testcase name="g" time="0.680" classname="com.testcases.NewPostCall" />
       
 </testsuite>

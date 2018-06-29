@@ -6,11 +6,14 @@ import java.io.IOException;
 
 import org.testng.ISuite;
 import org.testng.ISuiteListener;
+import org.testng.ITestContext;
+import org.testng.ITestListener;
+import org.testng.ITestResult;
 
 import com.common.Helper;
 
 
-public class CustomListner implements ISuiteListener {
+public class CustomListner implements ISuiteListener,ITestListener {
 	public void onFinish(ISuite arg0) {
 		   File htmlFile = new File(System.getProperty("user.dir")+"/"+"/test-output/html/index.html");
 			  try {
@@ -23,7 +26,35 @@ public class CustomListner implements ISuiteListener {
 	}
 	public void onStart(ISuite arg0) {
 		// TODO Auto-generated method stub
-Helper.deleteFile(System.getProperty("user.dir")+"/"+"/test-output/html",2,".html");
+//Helper.deleteFile(System.getProperty("user.dir")+"/"+"/test-output/html",2,".html");
+		
+	}
+	public void onFinish(ITestContext arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+	public void onStart(ITestContext arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+	public void onTestFailedButWithinSuccessPercentage(ITestResult arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+	public void onTestFailure(ITestResult arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+	public void onTestSkipped(ITestResult arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+	public void onTestStart(ITestResult arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+	public void onTestSuccess(ITestResult arg0) {
+		// TODO Auto-generated method stub
 		
 	}
 

@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="0.656">
+           time="0.690">
   <properties />
   
   
-            <testcase name="validateSuccessful" time="0.656" classname="com.testcases.UnthenticationSuccessful" />
+            <testcase name="validateSuccessful" time="0.690" classname="com.testcases.UnthenticationSuccessful" />
       
 </testsuite>

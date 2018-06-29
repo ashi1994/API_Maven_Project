@@ -11,12 +11,12 @@ public class Helper {
 	 
 	            File[] listFiles = folder.listFiles();
 	 
-	           // long eligibleForDeletion = System.currentTimeMillis() -
-	            //    (days * 24 * 60 * 60 * 1000L);
+	           long eligibleForDeletion = System.currentTimeMillis() -
+	               (days * 24 * 60 * 60 * 1000L);
 	 
 	            for (File listFile: listFiles) {
 	 
-	                if (listFile.getName().endsWith(fileExtension)) {
+	                if (listFile.getName().endsWith(fileExtension)&&listFile.lastModified()<eligibleForDeletion) {
 	 
 	                    if (!listFile.delete()) {
 	 

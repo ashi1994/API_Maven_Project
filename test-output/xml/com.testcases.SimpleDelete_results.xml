@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="2.607">
+           time="3.065">
   <properties />
   
   
-            <testcase name="validateDelete" time="2.607" classname="com.testcases.SimpleDelete" />
+            <testcase name="validateDelete" time="3.065" classname="com.testcases.SimpleDelete" />
       
 </testsuite>
