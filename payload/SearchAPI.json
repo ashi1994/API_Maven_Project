@@ -1,0 +1,23 @@
+{
+  "conditionGroup": {
+    "conditions": [
+      {
+        "searchColumn": "invoiceNumber",
+        "searchOperator": "CONTAINS",
+        "searchValue": [
+          "Pranit"
+        ]
+      }
+    ],
+    "logicalOperator": "AND"
+  },
+  "maxResultCount": 100,
+  "searchMode": 2,
+  "sortConditions": [
+    {
+      "ascending": true,
+      "sortColumn": "invoiceId"
+    }
+  ],
+  "startIndex": 0
+}

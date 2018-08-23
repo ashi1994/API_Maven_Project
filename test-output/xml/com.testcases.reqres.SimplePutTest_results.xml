@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="All API Test Cases"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.673">
+  <properties />
+  
+  
+            <testcase name="validateDelete" time="0.673" classname="com.testcases.reqres.SimplePutTest" />
+      
+</testsuite>

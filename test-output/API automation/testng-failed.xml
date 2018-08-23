@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [API automation]">
+  <listeners>
+    <listener class-name="com.base.CustomListner"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test thread-count="5" name="All API Test Cases(failed)">
+    <classes>
+      <class name="com.testcases.reqres.PostCall">
+        <methods>
+          <include name="g"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- com.testcases.reqres.PostCall -->
+      <class name="com.testcases.reqres.SuccessAuthetication">
+        <methods>
+          <include name="unSuccessFul"/>
+          <include name="successFul"/>
+        </methods>
+      </class> <!-- com.testcases.reqres.SuccessAuthetication -->
+    </classes>
+  </test> <!-- All API Test Cases(failed) -->
+</suite> <!-- Failed suite [API automation] -->

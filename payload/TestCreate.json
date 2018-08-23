@@ -1,0 +1,194 @@
+{
+	"IntegrationEntities": {
+		"integrationEntity": [{
+				"integrationEntityHeader": {
+					"integrationTrackingNumber": "abcdefghij",
+					"referenceCodeForEntity": "14022018-1"
+				},
+				"integrationEntityDetails": {
+					"invoice": {
+						"invoiceUniqueId": "",
+						"invoiceStatus": "SUBMITTED",
+						"createdOn": 1518618436416,
+						"header": {
+							"invoiceErpId": "nonpo1eewasasd",
+							"origin": "EXTERNAL",
+							"originType": "Non_OCR",
+							"originId": "ABCD",
+							"invoiceIntegrationId": "e986cf15-a7ce-4207-8672-c4b615078a66fff",
+							"invoiceNumber": "Mandatory{{timestampUtcIso8601}}",
+							"invoiceInternalId": "",
+							"invoiceDescription": "",
+							"comments": "",
+							"createdOn": 1518618436416,
+							"invoiceCreatedBy": {
+								"userEmailId": "claire.neveu@zycusss.com"
+							},
+							"poNumber": "001/18/93",
+							"invoiceDate": 1517423400000,
+							"invoiceDueDate": 1520015400000,
+							"discountDueDate": 1520015400000,
+							
+							"buyer": {
+								"userEmailId": "claire.neveu@zycusss.com"
+								
+							},
+							"requestor": {
+								"userEmailId": "claire.neveu@zycusss.com"
+							},
+							
+							"supplier": {
+								"supplierID": "2136351",
+								"supplierAddress": {
+									"addressCode": "508979"
+								},
+								"supplierRemitToAddress": {
+									"addressCode": "508979",
+									"addressERPID": ""
+								}
+							},
+							"paymentTerm": {
+								"paymentTermID": "NET15"
+							},
+							"currency": {
+								"supplierCurrencyName": "CAD"
+							},
+							"discount": {
+								"discountLevel": "HEADER_DISCOUNT",
+								"discountType": "AMOUNT_DISCOUNT",
+								"discountValue": 0
+							},
+							"exciseDuties": 0,
+							"extraCharges": 0,
+							"freightCharges": 0,
+							"insuranceCharges": 0,
+							"isTaxIncluded": true,
+							"taxes": {
+								"tax": [{
+										"isFreightTax": false,
+										"isSelfAssessedTax": false,
+										"isCompoundTax": false,
+										"taxType": "TAXTYPE004",
+										"taxName": "Gift Tax",
+										"taxRate": 5,
+										"taxAmount": 20
+									},
+									{
+										"isFreightTax": false,
+										"isSelfAssessedTax": false,
+										"isCompoundTax": false,
+										"taxType": "TAXTYPE004",
+										"taxName": "Fuel Tax",
+										"taxRate": 6.6,
+										"taxAmount": 92.4
+									},
+									{
+										"isFreightTax": false,
+										"isSelfAssessedTax": false,
+										"isCompoundTax": false,
+										"taxType": "TAXTYPE004",
+										"taxName": "Consumption Tax",
+										"taxRate": 5,
+										"taxAmount": 70
+									},
+									{
+										"isFreightTax": false,
+										"isSelfAssessedTax": false,
+										"isCompoundTax": false,
+										"taxType": "TAXTYPE004",
+										"taxName": "Custom Duty",
+										"taxRate": 4,
+										"taxAmount": 56
+									},
+									{
+										"isFreightTax": false,
+										"isSelfAssessedTax": false,
+										"isCompoundTax": false,
+										"taxType": "Indirect Taxes",
+										"taxName": "<script>alert(“Hi”);</script>",
+										"taxRate": 3,
+										"taxAmount": 42
+									},
+									{
+										"isFreightTax": false,
+										"isSelfAssessedTax": false,
+										"isCompoundTax": false,
+										"taxType": "OTHER",
+										"taxName": "Professional Tax",
+										"taxRate": 5,
+										"taxAmount": 70
+									},
+									{
+										"isFreightTax": false,
+										"isSelfAssessedTax": false,
+										"isCompoundTax": false,
+										"taxType": "GST",
+										"taxName": "GST",
+										"taxRate": 18,
+										"taxAmount": 252
+									},
+									{
+										"isFreightTax": false,
+										"isSelfAssessedTax": false,
+										"isCompoundTax": true,
+										"taxType": "SALES_TAX",
+										"taxName": "ert",
+										"taxRate": 7,
+										"taxAmount": 144.648
+									},
+									{
+										"isFreightTax": false,
+										"isSelfAssessedTax": false,
+										"isCompoundTax": false,
+										"taxType": "Custom duty & Octroi (On Goods)",
+										"taxName": "v",
+										"taxRate": 10,
+										"taxAmount": 140
+									}
+								]
+							},
+							"totalTaxAmount": 951.048,
+							"totalSelfAssessedTaxAmount": 100,
+							"taxesOnInvoiceGrossAmount": {},
+							"totalTaxOnInvoiceGrossAmountBorneByVendor": 0,
+							"totalTaxOnInvoiceGrossAmountBorneByBuyer": 0,
+							"invoiceGrossTotal": 3287.048,
+							"invoiceTotal": 3400,
+							"discountedGrossTotal": 2400,
+							"approvedGrossTotalAmount": 0
+						},
+						"lineItems": {
+							"lineItem": [{
+								"lineNumber": 1,
+								"itemNumber": "1",
+								"itemName": "",
+								"itemUOM": "EA",
+								"marketPrice": 34,
+								"itemType": "GOODS",
+								"itemCategory": "Exempt",
+								"itemCategoryCode": "99999999",
+								"itemQuantity": 100,
+								"itemTotalWithoutTaxes": 3400,
+								"discount": {
+									"discountType": "PERCENTAGE_DISCOUNT",
+									"discountValue": 0
+								},
+								"currency": {
+									"supplierCurrencyName": "CAD",
+									"accountingCurrency": "USD",
+									"supplierToDefaultCurrencyExchangeRate": 1
+								},
+								"isFlexAccountingDistributionApplicable": false,
+								"isTaxIncluded": false,
+								"taxes": {},
+								"itemTaxAmount": 0
+							}]
+						}
+					}
+				}
+			}
+
+
+		]
+	}
+}
