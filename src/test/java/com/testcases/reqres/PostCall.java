@@ -24,24 +24,24 @@ public class PostCall {
 	Response response;
 	
 	
-  @Test(description="This test case for get request")
-  public void f() {
-	    log.info("Starting getting tha data");
-		String URI = URL.getEndPoint("/api/users?page=2ttstt");
-		response=RestCalls.GETRequest(URI);
-		System.out.println(response.getBody().asString());
-		System.out.println(response.asString());
-		BaseAssertion.verifyStatusCode(response, 200);
-		System.out.println(response.contentType());
-		//System.out.println(System.getProperty("user.dir"));
-  }
+//  @Test(description="This test case for get request")
+//  public void f() {
+//	    log.info("Starting getting tha data");
+//		String URI = URL.getEndPoint("/api/users?page=2ttstt");
+//		response=RestCalls.GETRequest(URI);
+//		System.out.println(response.getBody().asString());
+//		System.out.println(response.asString());
+//		BaseAssertion.verifyStatusCode(response, 200);
+//		System.out.println(response.contentType());
+//		//System.out.println(System.getProperty("user.dir"));
+//  }
   
   @Test(description="This test case for post request")
   public void g() throws JsonGenerationException, JsonMappingException, IOException {
 	  log.info("Starting posting of data");
 	  String URI=URL.getEndPoint("/api/users");
 	  ObjectMapper mapper =new ObjectMapper();//jackson-databind jar
-	  Postpayload pr=new Postpayload("ashiwani1","Engineer");
+	  Postpayload pr=new Postpayload("ashiwaniranjan","Engineer");
 	  mapper.writeValue(new File(System.getProperty("user.dir")+"/payload/Postpayload.json"), pr);
 	  String s1=mapper.writeValueAsString(pr);
 	  System.out.println(s1);

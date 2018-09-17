@@ -83,12 +83,13 @@ public class RestCalls {
 
 	}
 
-	public static Response POSTRequestWithHeader(String URI, String strJSON) {
+	public static Response POSTRequestWithHeader(String URI, String strJSON,List<Header> header) {
 		log.info("Inside POSTRequest call");
 		RequestSpecification requestSpecification = RestAssured.given().body(strJSON);
 		requestSpecification.contentType(ContentType.JSON);
+		Headers he = new Headers(header);
+		requestSpecification.headers(he);
 		Response response = requestSpecification.post(URI);
-		requestSpecification.header("x-zycus-tenantId", "811619a2-29e6-4aab-9874-3ca6271403af");
 		log.debug(requestSpecification.log().all());
 		return response;
 	}
