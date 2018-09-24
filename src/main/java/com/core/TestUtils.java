@@ -74,6 +74,21 @@ public class TestUtils {
 		return URL;
 	}
 	
+	public static Properties getMessagePropery(){
+		FileInputStream reader;
+		Properties pr1 = null;
+		try {
+			reader = new FileInputStream(System.getProperty("user.dir")+"/"+"src/test/resource/mail.properties");
+			pr1=new Properties();
+			pr1.load(reader);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		return pr1;
+	}
+	
 		
 	
 }
