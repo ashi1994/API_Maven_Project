@@ -12,7 +12,8 @@ import javax.activation.FileDataSource;
 import javax.mail.BodyPart;
 import javax.mail.Message;
 	import javax.mail.MessagingException;
-	import javax.mail.PasswordAuthentication;
+import javax.mail.Multipart;
+import javax.mail.PasswordAuthentication;
 	import javax.mail.Session;
 	import javax.mail.Transport;
 	import javax.mail.internet.InternetAddress;
@@ -36,7 +37,10 @@ import org.testng.Reporter;
 			final String password=pro.getProperty("mail.password");
 			String to=pro.getProperty("mail.to");
 			String cc=pro.getProperty("mail.cc");
-			String subject=pro.getProperty("mail.subject");
+			java.util.Date date=new java.util.Date();  
+			String subject=pro.getProperty("mail.subject")+" "+date;
+	
+			 
 			String content=pro.getProperty("mail.content");
 			boolean status=Boolean.parseBoolean(pro.getProperty("mail.send"));
 			Properties props = new Properties();
@@ -69,12 +73,10 @@ import org.testng.Reporter;
 				message.addRecipients(Message.RecipientType.CC, InternetAddress.parse(cc));
 				message.setSubject(subject);
 				message.setText(content);
-				StringWriter writer = new StringWriter();
-				IOUtils.copy(new FileInputStream(new File(System.getProperty("user.dir")+"/"+"/test-output/html/index.html")), writer);
-
-				message.setContent(writer.toString(), "text/html");
-				
-			
+ 				Multipart multipart = new MimeMultipart();
+ 				addAttachment(multipart, System.getProperty("user.dir")+"/"+"test-output/emailable-report.html");
+ 				addAttachment(multipart, ZipFileCreate.creteZipFile());
+				message.setContent(multipart);
 				//Below code for attachment in email
 
 //		         // This mail has 2 part, the BODY and the embedded image
@@ -112,5 +114,13 @@ import org.testng.Reporter;
 				Reporter.log("Email sent is Off",true);
 			}
 		}
+	     private static void addAttachment(Multipart multipart, String filename) throws MessagingException
+	     {
+	         DataSource source = new FileDataSource(filename);
+	         BodyPart messageBodyPart = new MimeBodyPart();        
+	         messageBodyPart.setDataHandler(new DataHandler(source));
+	         messageBodyPart.setFileName(filename);
+	         multipart.addBodyPart(messageBodyPart);
+	     }
 }
 
