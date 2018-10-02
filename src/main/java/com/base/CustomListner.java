@@ -37,7 +37,7 @@ public class CustomListner implements ISuiteListener,ITestListener {
 	}
 	public void onStart(ISuite arg0) {
 		// TODO Auto-generated method stub
-//Helper.deleteFile(System.getProperty("user.dir")+"/"+"/test-output/html",2,".html");
+  // Helper.deleteFile(System.getProperty("user.dir")+"/"+"Zipfile",0,".zip");
 		
 	}
 	public void onFinish(ITestContext arg0) {
