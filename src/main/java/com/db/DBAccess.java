@@ -121,6 +121,11 @@ public class DBAccess {
 		return getColumnValue(query, coloumnName);
 		
 	}
+	
+		public String getFilterDetails(String coloumnName, String tenantID,String userdID) {
+		String query =  "select "+coloumnName+" from einvoice_user_filter_data where tenant_id='"+tenantID+"' and user_id='"+userdID+"'";
+		return getColumnValue(query, coloumnName);
+	}
 
 	private PreparedStatement m_preparedStatement = null;
 
