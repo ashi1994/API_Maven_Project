@@ -45,7 +45,7 @@ public class GETAPI_PRACTISE {
 		  System.out.println(response.asString());
 		  BaseAssertion.verifyStatusCode(response, 200);
 		  System.out.println(response.jsonPath().getList("data"));//for taking list which you want
-		  System.out.println(response.jsonPath().get("data.name"));//for take a particular Values from response
+		 // System.out.println(response.jsonPath().get("data.name"));//for take a particular Values from response
 	  }
 	}
 

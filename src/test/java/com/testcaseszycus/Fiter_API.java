@@ -33,7 +33,7 @@ public class Fiter_API {
 		  li.add(h3);
 		  response = RestCalls.GETRequestWithHeader(URI, li);
 		  System.out.println(response.asString());
-		  System.out.println(response.jsonPath().get("businessEntity.entityData.filterId"));
+		  //System.out.println(response.jsonPath().get("businessEntity.entityData.filterId"));
 		  BaseAssertion.verifyStatusCode(response, StatusCode.RESPONE_STATUS_CODE_200_OK);
 		  BaseAssertion.verifyStringContainsInResponse(response, "8a9494b6-5e3208ee-015e-328e3d3e-00a2");
 
