@@ -1,6 +1,6 @@
 /target/
-/test-output/junitreports
-/test-output/xml
+/test-output/junitreports/
+/test-output/xml/
 .DS_Store
 .classpath
 .settings/
