@@ -1,9 +1,9 @@
 /target/
-/test-output/
+/test-output/junitreports
+/test-output/xml
 .DS_Store
 .classpath
 .settings/
 /Zipfile.zip
 /Zipfile/
-/bin/
-
+/bin
