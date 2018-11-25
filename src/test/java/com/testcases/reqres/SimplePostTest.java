@@ -4,8 +4,12 @@ import static org.testng.Assert.assertEquals;
 import org.json.simple.JSONObject;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
+import com.jayway.jsonpath.JsonPath;
+
 import io.restassured.RestAssured;
 import io.restassured.http.Method;
+
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
  
@@ -62,7 +66,13 @@ public class SimplePostTest {
          int statusCode1 = response1.getStatusCode();
        
      	System.out.println("The status code recieved: " + statusCode);
-      
+        String res=response.body().asString();
+        String name= JsonPath.read(res,"$.name").toString().replace("[","").replace("]","");
+        String leader= JsonPath.read(res,"$.job").toString().replace("[","").replace("]","");
+
+        System.out.println(name);
+        System.out.println(leader);
+
      	System.out.println("Response body: " + response.body().asString());
      	System.out.println("Response body: " + response1.body().asString());
      	assertEquals(statusCode, 201,"something wrong");		

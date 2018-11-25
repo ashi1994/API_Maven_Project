@@ -1,0 +1,28 @@
+{
+  "trackingNumber": "Track",
+  "info1": "1",
+  "info2": "1",
+  "pagination": {
+    "totalRecords": 1000,
+    "maxRows": 14,
+    "pageNumber": 1
+  },
+  "criteriaGroup": {
+    "logicalOperator": "AND",
+    "criteriaGroup": [
+      {
+        "logicalOperator": "OR",
+        "criteria": [
+          {
+            "fieldName": "name",
+            "operation": "EQUALS",
+            "value": "screenshot-1.png",
+            "minValue": 0,
+            "maxValue": 1
+          }
+        ]
+      }
+    ]
+  },
+  "locale": "EN_US"
+  }
