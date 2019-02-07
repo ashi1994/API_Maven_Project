@@ -46,11 +46,11 @@ public class ExcelFileUpdate {
  
                 int columnCount = 0;
                  
-                Cell cell = row.createCell(columnCount);
-                cell.setCellValue(rowCount);
+                Cell cell;
+                //cell.setCellValue(rowCount);
                  
                 for (Object field : aBook) {
-                    cell = row.createCell(++columnCount);
+                    cell = row.createCell(columnCount++);
                     if (field instanceof String) {
                         cell.setCellValue((String) field);
                     } else if (field instanceof Integer) {
