@@ -5,6 +5,8 @@ import java.io.IOException;
 import java.util.List;
 
 import com.core.*;
+import com.json_java.LombokUse;
+import com.json_java.LombokUse;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.testng.Assert;
@@ -46,16 +48,17 @@ public class PostCall {
   }
   
   @Test(description="This test case for post request")
-  public void g() throws JsonGenerationException, JsonMappingException, IOException {
+  public void g() throws IOException {
 	  log.info("Starting posting of data");
 	  String URI=URL.getEndPoint("/api/users");
 	  ObjectMapper mapper =new ObjectMapper();//jackson-databind jar
-	  Postpayload pr=new Postpayload("ashiwani1","Engineer");
-	  mapper.writeValue(new File(System.getProperty("user.dir")+"/payload/Postpayload.json"), pr);
-	  String s1=mapper.writeValueAsString(pr);
-	  System.out.println(s1);
-	  String createIssuePayLaod = PayloadGenerator.generatePayLoadString("Postpayload.json");
-	  response = RestCalls.POSTRequest(URI,createIssuePayLaod);
+	  LombokUse lm= LombokUse.builder().job("enginner").name("ashiwani").build();
+	  System.out.println(lm.getName());
+	  //mapper.writeValue(new File(System.getProperty("user.dir")+"/payload/Postpayload.json"), pr);
+	  String s1=mapper.writeValueAsString(lm);
+	  System.out.println("Payloaad "+s1);
+	  //String createIssuePayLaod = PayloadGenerator.generatePayLoadString("Postpayload.json");
+	  response = RestCalls.POSTRequest(URI,s1);
 	  System.out.println(response.asString());
 	  BaseAssertion.verifyStatusCode(response, 201);
   }

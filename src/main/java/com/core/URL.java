@@ -1,6 +1,10 @@
 package com.core;
+import io.advantageous.boon.core.Str;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
+import org.testng.annotations.Test;
+
+import java.util.Random;
 
 public class URL {
 
@@ -22,4 +26,17 @@ public class URL {
 		log.info("URI End Point with Post Param : " + URL + resource + postparam);
 		return URL + resource + postparam;
 	}
+
+	public static String GetRandomPhone(String countryCode){
+		return  countryCode+String.format("9%03d%03d%03d",
+				(int) Math.floor(999*Math.random()),
+				(int) Math.floor(999*Math.random()),
+				(int) Math.floor(999*Math.random()));
+	}
+
+	@Test
+	public void t(){
+		System.out.println(GetRandomPhone("91"));
+	}
+
 }

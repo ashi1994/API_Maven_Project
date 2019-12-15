@@ -1,22 +1,22 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="API automation">
- <listeners>
-      <listener class-name="com.base.CustomListner"/>  
-      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
-      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
- </listeners>
+    <listeners>
+        <listener class-name="com.base.CustomListner"/>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    </listeners>
 
-<test name="All API Test Cases">
-<classes>
-<class name="com.testcases.reqres.SimpleDelete"/>
-<class name="com.testcases.reqres.SimpleGetNotFound"/>
-<class name="com.testcases.reqres.SimpleGetTest"/>
-<class name="com.testcases.reqres.SimplePostTest"/>
-<class name="com.testcases.reqres.SimplePutTest"/>
-<class name="com.testcases.reqres.UnthenticationSuccessful"/>
-<class name="com.testcases.reqres.UnthenticationUnSuccessful"/>
-<class name="com.testcases.reqres.PostCall"/>
-<class name="com.testcases.reqres.SuccessAuthetication"/>
-</classes>
-</test>
+    <test name="All API Test Cases">
+        <classes>
+            <class name="com.testcases.reqres.SimpleDelete"/>
+            <class name="com.testcases.reqres.SimpleGetNotFound"/>
+            <class name="com.testcases.reqres.SimpleGetTest"/>
+            <class name="com.testcases.reqres.SimplePostTest"/>
+            <class name="com.testcases.reqres.SimplePutTest"/>
+            <class name="com.testcases.reqres.UnthenticationSuccessful"/>
+            <class name="com.testcases.reqres.UnthenticationUnSuccessful"/>
+            <class name="com.testcases.reqres.PostCall"/>
+            <class name="com.testcases.reqres.SuccessAuthetication"/>
+        </classes>
+    </test>
 </suite>

@@ -20,7 +20,7 @@ public class RestCalls {
 
 	public static Response GETRequest(String URI) {
 		log.info("Inside GETRequest call");
-		RequestSpecification requestSpecification = RestAssured.given();
+		RequestSpecification requestSpecification = RestAssured.given().log().all();
 		requestSpecification.contentType(ContentType.JSON);
 		Response response = requestSpecification.get(URI);
 		log.debug(requestSpecification.log().all());
@@ -29,7 +29,7 @@ public class RestCalls {
 
 	public static Response POSTRequest(String URI, String strJSON) {
 		log.info("Inside POSTRequest call");
-		RequestSpecification requestSpecification = RestAssured.given().body(strJSON);
+		RequestSpecification requestSpecification = RestAssured.given().body(strJSON).log().all();
 		requestSpecification.contentType(ContentType.JSON);
 		Response response = requestSpecification.post(URI);
 		log.debug(requestSpecification.log().all());

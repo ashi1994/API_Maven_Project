@@ -1,15 +1,15 @@
 package com.common;
 
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
 import java.io.File;
 import java.io.FileOutputStream;
 import java.util.Map;
 import java.util.Set;
 import java.util.TreeMap;
-
-import org.apache.poi.ss.usermodel.Cell;
-import org.apache.poi.ss.usermodel.Row;
-import org.apache.poi.xssf.usermodel.*;
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class Xls_Handle_New {
 	public static void main(String...s) {
@@ -19,16 +19,16 @@ public class Xls_Handle_New {
     XSSFSheet sheet = workbook.createSheet("student Details"); 
 
     // This data needs to be written (Object[]) 
-    Map<String, Object[]> data = new TreeMap<String, Object[]>(); 
-    data.put("1", new Object[]{ "ID", "NAME", "LASTNAME" }); 
-    data.put("2", new Object[]{ 1, "Mithu", "Kumar" }); 
-    data.put("3", new Object[]{ 2, "Bittu", "Yadav" }); 
-    data.put("4", new Object[]{ 3, "Ashiwani", "Mondal" }); 
-    data.put("5", new Object[]{ 4, "Virat", "kohli" }); 
+    Map<String, Object[]> data = new TreeMap<String, Object[]>();
+        data.put("11", new Object[]{"ID", "NAME", "LASTNAME"});
+        data.put("22", new Object[]{1, "Mithu", "Kumar"});
+        data.put("31", new Object[]{2, "Bittu", "Yadav"});
+        data.put("42", new Object[]{3, "Ashiwani", "Mondal"});
+        data.put("51", new Object[]{4, "Virat", "kohli"});
 
     // Iterate over data and write to sheet 
-    Set<String> keyset = data.keySet(); 
-    int rownum = 0; 
+    Set<String> keyset = data.keySet();
+        int rownum = 1;
     for (String key : keyset) { 
         // this creates a new row in the sheet 
         Row row = sheet.createRow(rownum++); 
@@ -51,8 +51,9 @@ public class Xls_Handle_New {
         System.out.println("Test.xlsx written successfully on disk."); 
     } 
     catch (Exception e) { 
-        e.printStackTrace(); 
-    } 
-} 
+        e.printStackTrace();
+    }
+    }
+
 
 }
